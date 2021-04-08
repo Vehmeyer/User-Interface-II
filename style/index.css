@@ -37,7 +37,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid green;
+    /* border:1px solid green; */
 }    
 /*General Styles*/
 html{
@@ -62,7 +62,7 @@ section{
     padding:4% 0;
 }
 
-    /* Header Section Styles */
+/* Header Section Styles */
 
 nav {
 	display: flex;
@@ -77,12 +77,19 @@ button {
     padding:15px 32px;
     text-align:center;
 	font-size: 1.6rem;
+	background-color: grey;
 }
 
-.section-one {
+/* Section One Stylings */
 
-}
+h2	{
+		font-family: 'Ubuntu', sans-serif;
+		font-size:4.5rem;
+		text-align: center;
+		text-decoration: none;
+	}
 
+/* Section Two Stylings */
 .section-two {
 	background-image: url(https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3140&q=80);
 	height: 50vh;
@@ -91,16 +98,30 @@ button {
 	background-size: cover;
 }
 
-.section-three-images {
-	display: flex;
-	width: 100%;
+/* Section Three Stylings */
+img {
+	width: auto;
 	height: 60vh;
 }
 
+.section-three-images {
+	display: flex;
+	max-width: 22%;
+	height: 60vh;
+	object-fit: cover;
+}
 
+/* Footer Stylings */
 
+.footer {
+	background-color:#4682B4
+}
 
+.footer-button {
+	margin: 25px;
 
+	
+}
 
 
 
@@ -113,6 +134,8 @@ button {
 .contact-page h2 {
 	font-size: 30px;
 }
+
+
 
 
 
