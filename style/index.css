@@ -1,1 +1,151 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid green; */
+}    
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:2.0rem;
+    line-height:1.5;
+    font-family: 'Rokkitt', serif;
+	background-color: #F5F5F5;
+}
+header {
+	background-color: #4682B4;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:5.5rem;
+	text-align: center;
+}
+section{
+    padding:4% 0;
+}
+
+/* Header Section Styles */
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+a {
+	height: 5%;
+	width: 10%;
+	display:inline-block;
+	color:black;
+    padding:2 5;
+    text-align:center;
+	font-size: 1.6rem;
+	background-color: grey;
+	border: 1px solid black;
+	margin-bottom: 1%;
+	text-decoration: none;
+}
+
+/* Section One Stylings */
+
+h2	{
+		font-family: 'Ubuntu', sans-serif;
+		font-size:4.5rem;
+		text-align: center;
+		text-decoration: none;
+	}
+.section-one p {
+		font-size: 4rem;
+		text-decoration: none;
+		text-align: center;
+}
+
+/* Section Two Stylings */
+.section-two {
+	background-image: url(https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3140&q=80);
+	height: 50vh;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+/* Section Three Stylings */
+img {
+	width: auto;
+	height: 62vh;
+	margin: 0 5px;
+}
+
+.section-three-images {
+	display: flex;
+	max-width: 22%;
+	height: 60vh;
+	object-fit: cover;
+}
+
+.section-three p {
+	text-align: center;
+	padding: 30% 20%;
+	line-height: .8;
+}
+
+/* Footer Stylings */
+
+.footer {
+	background-color:#4682B4
+}
+
+.footer-button {
+	margin: 25px;
+}
+
+
+/* About.html styling */
+
+/* Contact.html styling */
+
+.contact-page h2 {
+	font-size: 30px;
+}
+
+.container-contact {
+	display:flex;
+	justify-content: center;
+}
+
+/* Projects.html styling */
