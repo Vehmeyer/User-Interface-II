@@ -78,6 +78,7 @@ a {
 	background-color: grey;
 	border: 1px solid black;
 	margin-bottom: 1%;
+	text-decoration: none;
 }
 
 /* Section One Stylings */
@@ -120,6 +121,7 @@ img {
 .section-three p {
 	text-align: center;
 	padding: 30% 20%;
+	line-height: .8;
 }
 
 /* Footer Stylings */
