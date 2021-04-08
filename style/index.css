@@ -52,7 +52,6 @@ body{
 header {
 	background-color: #4682B4;
 }
-
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size:5.5rem;
@@ -68,7 +67,6 @@ nav {
 	display: flex;
 	justify-content: center;
 }
-
 button {
 	height: 5%;
 	width: 10%;
@@ -88,6 +86,11 @@ h2	{
 		text-align: center;
 		text-decoration: none;
 	}
+.section-one p {
+		font-size: 4rem;
+		text-decoration: none;
+		text-align: center;
+}
 
 /* Section Two Stylings */
 .section-two {
@@ -119,24 +122,14 @@ img {
 
 .footer-button {
 	margin: 25px;
-
-	
 }
 
 
-
-
-
 /* About.html styling */
-
 
 /* Contact.html styling */
 .contact-page h2 {
 	font-size: 30px;
 }
-
-
-
-
 
 /* Projects.html styling */
