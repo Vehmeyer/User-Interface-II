@@ -44,7 +44,7 @@ html{
     font-size:62.5%;
 }
 body{
-    font-size:1.6rem;
+    font-size:2.0rem;
     line-height:1.5;
     font-family: 'Rokkitt', serif;
 	background-color: #F5F5F5;
@@ -104,7 +104,8 @@ h2	{
 /* Section Three Stylings */
 img {
 	width: auto;
-	height: 60vh;
+	height: 62vh;
+	margin: 0 5px;
 }
 
 .section-three-images {
@@ -112,6 +113,11 @@ img {
 	max-width: 22%;
 	height: 60vh;
 	object-fit: cover;
+}
+
+.section-three p {
+	text-align: center;
+	padding: 30% 20%;
 }
 
 /* Footer Stylings */
