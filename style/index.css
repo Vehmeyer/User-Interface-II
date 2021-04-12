@@ -137,6 +137,64 @@ nav {
 
 /* Section Three Stylings */
 
+.container { 
+	display: flex;
+	padding: 1% 0;
+  }
+  
+  .container div {
+	  width: 18%;
+	  margin: 0 1%;
+  }
+
+  .bg-img1 {
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-image: url(https://images.unsplash.com/photo-1570556319136-3cfc640168a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=882&q=80);
+	
+  }
+  
+  .bg-img2 {
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-image: url(https://images.unsplash.com/photo-1447433819943-74a20887a81e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1975&q=80); 
+  }
+  
+  .bg-img3 {
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-image: url(https://images.unsplash.com/photo-1539321908154-04927596764d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1955&q=80);
+  }
+  
+  .bg-img4 {
+	height: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-image: url(https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1427&q=80);
+  }
+  
+  .projects-text {
+	display: flex;
+	align-text: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  }
+
+
+
+/*
 img {
 	width: auto;
 	height: 62vh;
@@ -156,6 +214,7 @@ img {
 	line-height: .8;
 	width:70%;
  }
+ */
 
 /* Footer Stylings */
 
@@ -174,19 +233,6 @@ footer nav {
 	padding: 0 5%;
 	margin: 2% 0;
 } */
-
-
-/* Contact.html styling */
-
-/* .contact-page h2 {
-	font-size: 30px;
-}
-
-.container-contact {
-	display:flex;
-	justify-content: center;
-} */
-
 
 /* Responsive Styling  */
 /* tablet */
@@ -226,6 +272,21 @@ footer nav {
 		background-size: cover;
 		margin: 0 3%;
 	}
+
+	.container {
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-evenly;
+	}
+
+	.container div {
+		width: 40%;
+		/* align-content: center;
+		align-items: center; */
+		margin: 1% 1%;
+	} 
+
+
 
 	.section-three-images {
 		display: flex;
